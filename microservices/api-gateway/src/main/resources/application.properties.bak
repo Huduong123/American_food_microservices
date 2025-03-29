@@ -1,0 +1,12 @@
+spring.application.name=api-gateway
+server.port=8088
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+spring.cloud.gateway.routes[0].id=api-ckt3
+spring.cloud.gateway.routes[0].uri=lb://api-ckt3
+spring.cloud.gateway.routes[0].predicates[0]=Path=/api-ckt3/**
+
+spring.cloud.gateway.routes[1].id=project-cuoi-ky
+spring.cloud.gateway.routes[1].uri=lb://ProjectCuoiKyT3
+spring.cloud.gateway.routes[1].predicates[0]=Path=/project-cuoi-ky/**
