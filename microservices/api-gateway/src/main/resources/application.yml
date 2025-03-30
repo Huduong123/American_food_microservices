@@ -18,6 +18,12 @@ spring:
           uri: lb://ProjectCuoiKyT3
           predicates:
             - Path=/project-cuoi-ky/**
+        - id: cart-service
+          uri: lb://cart-service
+          predicates:
+            - Path=/cart-service/**
+          filters:
+            - StripPrefix=1
 eureka:
   client:
     service-url:

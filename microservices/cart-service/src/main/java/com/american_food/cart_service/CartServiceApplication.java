@@ -1,4 +1,4 @@
-package com.american_food.api_ckt3;
+package com.american_food.cart_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ApiCkt3Application {
+public class CartServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiCkt3Application.class, args);
+		SpringApplication.run(CartServiceApplication.class, args);
 	}
 
 }
