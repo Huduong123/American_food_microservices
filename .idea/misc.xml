@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/microservices/eureka-server/untitled/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/cart-service/pom.xml" />
       </list>
     </option>
   </component>
